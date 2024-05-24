@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+
+        {% endblock title %}
+    </title>
+    {% include "snippets/style.html" %}
+</head>
+<body>
+
+    <div class="container bg-light shadow mt-5 ">
+        {% block contents %}
+    
+        {% endblock contents %}
+    </div>
+
+    {% include "snippets/script.html" %}
+</body>
+</html>

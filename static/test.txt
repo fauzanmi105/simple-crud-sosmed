@@ -1,0 +1,2 @@
+ini adalah static
+tutor django nomor 46

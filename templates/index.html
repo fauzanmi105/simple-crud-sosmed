@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{page_title}}
+{% endblock title %}
+
+{% block contents %}
+    <h1>{{page_title}}</h1>
+    <p>{% lorem 2 b random %}</p>
+    <h4><a href="sosmed/">Sosmed</a></h4>
+{% endblock contents %}
